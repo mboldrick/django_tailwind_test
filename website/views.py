@@ -1,4 +1,8 @@
-from django.http import HttpResponse
+from django.views.generic import TemplateView
 
-def home(request):
-    return HttpResponse('<h1>Vagabond Engineer Home</h1>')
+class HomePageView(TemplateView):
+    template_name = 'website/home.html'
+
+
+class AboutPageView(TemplateView):
+    template_name = 'website/about.html'
