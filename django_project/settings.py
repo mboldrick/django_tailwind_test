@@ -25,7 +25,7 @@ INSTALLED_APPS = [
     # third-party
     'tailwind',
     'theme',
-    'django_browser_reload'
+    'django_browser_reload',
     # local
     'website.apps.WebsiteConfig',
 ]
